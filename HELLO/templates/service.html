@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}service{% endblock %}
+
+{% block body %}
+<!-- Services Section -->
+<section class="py-5 bg-white" id="services">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-success">Our Ice Cream Services</h2>
+      <p class="text-muted">
+        From scoops to celebrations — we do it all with a cherry on top!
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Service 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm text-center">
+          <div class="card-body">
+            <i class="bi bi-cup-straw fs-1 text-danger mb-3"></i>
+            <h5 class="card-title">Scoop Parlour</h5>
+            <p class="card-text">
+              Visit our store to enjoy fresh hand-scooped ice creams, sundaes, and more in a cozy, colorful atmosphere.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm text-center">
+          <div class="card-body">
+            <i class="bi bi-truck fs-1 text-warning mb-3"></i>
+            <h5 class="card-title">Ice Cream Truck</h5>
+            <p class="card-text">
+              Book our mobile ice cream truck for birthdays, weddings, and corporate events. We bring the chill to your thrill!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm text-center">
+          <div class="card-body">
+            <i class="bi bi-gift fs-1 text-info mb-3"></i>
+            <h5 class="card-title">Custom Orders</h5>
+            <p class="card-text">
+              Order pints, cakes, or frozen novelties personalized with your favorite flavors, toppings, or branding.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock body %}
+

@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+
+{% block body %}
+<div class="container my-4">
+  <h1>Welcome to the Krishna's Ice-Cream</h1>
+  <p>This is the home page of our Ice Cream website. Enjoy our delicious ice creams and stay tuned for more updates!</p>
+
+  <div class="container-fluid my-4 px-0">
+  <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://plus.unsplash.com/premium_photo-1684952851239-a9cc9567884e?q=80&w=1031&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.unsplash.com/photo-1593558159516-d0be2a960c52?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aWNlY3JlYW18ZW58MHx8MHx8fDA%3D" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://plus.unsplash.com/premium_photo-1675279010969-e85bfbd402dc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<div class = "container my-4 " >
+  <h2>Our Specialties</h2>
+  <p>Explore our range of ice creams, softies, and family packs that are sure to delight your taste buds!</p>
+<div class = "d-flex flex-row justify-content-around flex-wrap">
+<div class="card my-3 " style="width: 18rem;">
+  <img src="https://plus.unsplash.com/premium_photo-1690440686714-c06a56a1511c?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Special Vanila</p>
+  </div>
+</div>
+
+<div class="card my-3" style="width: 18rem;">
+  <img src="https://plus.unsplash.com/premium_photo-1689298470213-bc9f130f7349?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Uropian Choclate</p>
+  </div>
+</div>
+
+<div class="card my-3" style="width: 18rem;">
+  <img src="https://plus.unsplash.com/premium_photo-1661371549196-4f6d5029b11b?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Spicy Pista</p>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+{% endblock body %}
+
+
+
+
